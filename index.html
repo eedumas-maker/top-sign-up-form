@@ -38,13 +38,13 @@
 
                     <div class="input-label-pair">
                         <label for='first-name'>FIRST NAME</label>
-                        <input id='first-name' name='first-name' type='text'>
+                        <input id='first-name' name='first-name' type='text' required>
                     </div>
 
 
                     <div class="input-label-pair">
                         <label for='last-name'>LAST NAME</label>
-                        <input id='last-name' name='last-name' type='text'>
+                        <input id='last-name' name='last-name' type='text' required>
                     </div>
 
                 </div>
@@ -53,7 +53,7 @@
                     
                     <div class="input-label-pair">
                         <label for='email'>EMAIL</label>
-                        <input id='email' name='email' type='email'>
+                        <input id='email' name='email' type='email' required>
                     </div>
                     <div class="input-label-pair">
                         <label for="phone">PHONE NUMBER</label>
@@ -66,11 +66,11 @@
                     
                     <div class="input-label-pair">
                         <label for='password'>PASSWORD</label>
-                        <input id='password' name='password' type='password'>
+                        <input id='password' name='password' type='password' minlength="8" pattern="(*[a-z])(*[A-Z])(*[0-9])" required>
                     </div>
                     <div class="input-label-pair">
                         <label for="confirm">CONFIRM PASSWORD</label>
-                        <input id='confirm' name='confirm' type="password">
+                        <input id='confirm' name='confirm' type="password" minlength="8" pattern="(*[a-z])(*[A-Z])(*[0-9])" required>
                     </div>
                     
                 </div>

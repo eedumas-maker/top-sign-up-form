@@ -109,7 +109,7 @@ body {
 }
 
 
-.form-row input:invalid {
+.form-row input[type='password']:invalid {
     box-sizing: content-box;
     border: 1px solid rgb(232, 59, 59);
 }
