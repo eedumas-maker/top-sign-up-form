@@ -56,7 +56,12 @@ body, div{
     justify-content: center;
     align-items: stretch;
     font-family: 'Roboto', sans-serif;
-    margin-left: 20px;
+    background-color: aliceblue;
+}
+
+.hero-header, .form-container, .button-container, .login{
+    padding-left: 20px;
+    padding-right: 200px;
 }
 
 .hero-header {
@@ -65,7 +70,15 @@ body, div{
 }
 
 .form-container {
+    background-color: white;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+    min-height: 300px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
 
+.form-container h3 {
+    line-height: 0%;
 }
 
 .submit-button {
