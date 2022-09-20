@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 body {
     margin: 0px;
@@ -44,10 +45,29 @@ body, div{
     max-width: 100px;
 }
 
-.background-caption{
-}
-
 .background-caption, .background-caption a {
     color: white;
     text-align: center;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+.hero-header {
+    font-weight: bold;
+    margin-bottom: 40px;    
+}
+
+.form-container {
+
+}
+
+.submit-button {
+    margin-top: 20px;
 }
