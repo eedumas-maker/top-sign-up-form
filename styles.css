@@ -1,0 +1,53 @@
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    min-height: 100vh;
+}
+
+body, div{
+    border: 1px solid red;
+}
+
+.sidebar-container {
+    background-image: url("casey-horner-space-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.logo-container {
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: relative;
+    bottom: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.logo-header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    color: white;
+    max-width: 100px;
+}
+
+.background-caption{
+}
+
+.background-caption, .background-caption a {
+    color: white;
+    text-align: center;
+}
