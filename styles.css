@@ -8,18 +8,15 @@ body {
     min-height: 100vh;
 }
 
-body, div{
-    border: 1px solid red;
-}
-
 .sidebar-container {
     background-image: url("casey-horner-space-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
+    width: 50%;
 }
 
 .logo-container {
@@ -60,7 +57,7 @@ body, div{
 }
 
 .hero-header, .form-container, .button-container, .login{
-    padding-left: 20px;
+    padding-left: 40px;
     padding-right: 200px;
 }
 
@@ -73,7 +70,7 @@ body, div{
     background-color: white;
     box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
     min-height: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding-top: 10px;
 }
 
@@ -82,5 +79,20 @@ body, div{
 }
 
 .submit-button {
-    margin-top: 20px;
+    padding: 10px 60px;
+
+    color: #fff;
+    background-color: #555;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    margin-bottom: 20px;
 }
