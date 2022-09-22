@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 
 </head>
 <body>
@@ -32,7 +33,7 @@
         <div class="form-container">
             <h3>Let's Do This!</h3>
             
-            <form action="" method="get">
+            <form action="" method="get" novalidate>
 
                 <div class='form-row'>
 
@@ -66,11 +67,13 @@
                     
                     <div class="input-label-pair">
                         <label for='password'>PASSWORD</label>
-                        <input id='password' name='password' type='password' minlength="8" pattern="(*[a-z])(*[A-Z])(*[0-9])" required>
+                        <input id='password' name='password' type='password' minlength="8" pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{8}$" required>
+                        <span id='passError' class="error" aria-live="polite"></span>
+                        
                     </div>
                     <div class="input-label-pair">
-                        <label for="confirm">CONFIRM PASSWORD</label>
-                        <input id='confirm' name='confirm' type="password" minlength="8" pattern="(*[a-z])(*[A-Z])(*[0-9])" required>
+                        <label for="confirmPass">CONFIRM PASSWORD</label>
+                        <input id='confirmPass' name='confirm' type="password" minlength="8" pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{8}$" required>
                     </div>
                     
                 </div>

@@ -121,6 +121,24 @@ body {
     padding-bottom: 40px;
 }
 
+.error {
+    width: 100%;
+    padding: 4px;
+
+    font-size: 80%;
+    color: rgb(232, 59, 59);
+
+    box-sizing: border-box;
+}
+
+.error.active {
+    padding: 0.3em;
+}
+
+.error.success {
+    color: rgb(30, 222, 30);
+}
+
 .submit-button {
     padding: 10px 60px;
 
